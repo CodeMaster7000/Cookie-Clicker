@@ -2,7 +2,11 @@
 
 ## About
 
-A classic cookie clicker game, programmed in Python, using the `Turtle` module. Enjoy!
+A classic cookie clicker game, programmed in Python, using the `Turtle` module.
+
+## How to Play
+
+Click the cookie as fast as you can to rack up countless clicks. Enjoy!
 
 ## Instructions for Use
 
