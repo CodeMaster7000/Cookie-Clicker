@@ -3,7 +3,7 @@ import turtle
 wn = turtle.Screen()
 
 wn.title("Cookie Clicker @CodeMaster7000")
-wn.bgcolor("black")
+wn.bgcolor("navy blue")
 wn.register_shape("Cookie.gif")
 
 cookie = turtle.Turtle()
