@@ -1,7 +1,6 @@
 import turtle
 
 wn = turtle.Screen()
-
 wn.title("Cookie Clicker @CodeMaster7000")
 wn.bgcolor("navy blue")
 wn.register_shape("Cookie.gif")
@@ -18,7 +17,6 @@ pen.color("white")
 pen.penup()
 pen.goto(0, 400)
 pen.write(f"Clicks: {clicks}", align="center", font=("Calibri", 28, "normal")) # Customize for your games
-
 def clicked(x, y):
     global clicks
     clicks += 1
@@ -26,5 +24,4 @@ def clicked(x, y):
     pen.write(f"Clicks: {clicks}", align="center", font=("Calibri", 28, "normal")) # Customize for your games
     
 cookie.onclick(clicked)
-
 wn.mainloop()
